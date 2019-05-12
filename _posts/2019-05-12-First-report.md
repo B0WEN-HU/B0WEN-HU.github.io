@@ -30,7 +30,7 @@ Finish all the [tutorials](https://tutorials.gnuradio.org "tutorials") from chap
 Try to make the Verilator related header file available in GNU Radio blocks. A source block like [this (flicker.v)](https://github.com/B0WEN-HU/Verilator_SIM_standalone "Verilator_SIM_standalone") would be a good start.
 
 ## Issue(s)
-Change the name of the module from `gr-howto` to `gr-myfistmodule`.
+The module name `gr-howto` need to be changed.
 
 --------------------------
 
