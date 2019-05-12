@@ -7,11 +7,13 @@ author:     Bowen
 header-img: img/post-bg-map.jpg
 catalog: true
 tags:
-    - GSoC, GNU Radio
+   - GSoC, GNU Radio
 ---
 
 Hi, This is my first report since GSoC started.
+
 --------------------------
+
 ## Progress this week
 I have set up the working environment and read some tutorials for GNU Radio development in the last few days.
 
@@ -28,6 +30,7 @@ Try to make the Verilator related header file available in GNU Radio blocks. A s
 
 ## Issue(s)
 Change the name of the module from `gr-howto` to `gr-myfistmodule`.
+
 --------------------------
 
 See you next week.
