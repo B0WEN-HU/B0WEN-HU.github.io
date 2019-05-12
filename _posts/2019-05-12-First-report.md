@@ -7,7 +7,8 @@ author:     Bowen
 header-img: img/post-bg-map.jpg
 catalog: true
 tags:
-   - GSoC, GNU Radio
+   - GSoC
+   - GNU Radio
 ---
 
 Hi, This is my first report since GSoC started.
