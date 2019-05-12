@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      First Report
-subtitle:   Hello World, Hello Blog
+subtitle:   Weekly Report
 date:       2019-05-12
 author:     Bowen
 header-img: img/post-bg-map.jpg
