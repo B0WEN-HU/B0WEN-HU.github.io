@@ -22,7 +22,7 @@ My current working environment is `Ubuntu 18.04 LTS` installed `GNU Radio` `vers
 
 I am following the tutorial and created [my first module](https://github.com/B0WEN-HU/gr-howto "gr-howto") `gr-howto` (This may not be a good name, so I will change the module name in the coming week). I will continue to read tutorials, hopefully I could finish them (from chapter 2 to chapter 7) in the next week.
 
-I also managed to run the simulation of a simple Verilog module with Verilator, it works as aticipated, you can find it [here](https://github.com/B0WEN-HU/Verilator_SIM_standalone "Verilator_SIM_standalone"). This is just a standalone simulation program, in order to let the `GNU Radio` work with the Verilator-generated file, there are much work to do.
+I also managed to run the simulation of a simple Verilog module with Verilator, it works as anticipated, you can find it [here](https://github.com/B0WEN-HU/Verilator_SIM_standalone "Verilator_SIM_standalone"). This is just a standalone simulation program, in order to let the `GNU Radio` work with the Verilator-generated file, there are much work to do.
 
 ## Plan next week
 Finish all the [tutorials](https://tutorials.gnuradio.org "tutorials") from chapter 2 to chapter 7.
