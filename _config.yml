@@ -102,7 +102,7 @@ friends: [
         title: "GNU Radio",
         href: "https://www.gnuradio.org/"
     },{
-        title: "GSoC"
+        title: "GSoC",
         href: "https://summerofcode.withgoogle.com/"
     }
 ]
