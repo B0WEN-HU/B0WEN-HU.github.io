@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      GSoC weekly report \#2
+title:      GSoC weekly report #2
 subtitle:   Weekly Report
 date:       2019-05-19
 author:     Bowen
