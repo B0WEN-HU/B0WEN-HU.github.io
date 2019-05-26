@@ -51,11 +51,14 @@ The shared library I used in this block was named as `libvl.so`, the name might 
 #pragma once
 
 # include "Vflicker.h"
+
 # include "verilated.h"
 
 #ifdef __cplusplus
+
 extern "C"
 {
+
 #endif
 
 static Vflicker* tb;
@@ -70,7 +73,9 @@ unsigned char tic();
 void release();
 
 #ifdef __cplusplus
+
 }
+
 #endif
 ```
 
@@ -111,6 +116,7 @@ The constructor of this `source block` was shown below. It demonstrates how the 
         pInit();
       } catch(...) {
         // Handle the exception
+        
         std::cerr << "ERROR:Exception raised by function";
         //return EXIT_FAILURE;
       }
@@ -132,6 +138,7 @@ The constructor of this `source block` was shown below. It demonstrates how the 
         pReset();
       } catch(...) {
         // Handle the exception
+        
         std::cerr << "ERROR:Exception raised by function";
         //return EXIT_FAILURE;
       }
