@@ -24,7 +24,7 @@ This `source block` was implemented by shared library (dynamic-link library) mec
 
 As you can know from [`flicker.v`](https://github.com/B0WEN-HU/Verilator_SIM_standalone "Verilator_SIM_standalone"), this verilog module's output would switch between `0` and `31`. The QA code of this module is as follow. It stops the code with `head` block.
 
-``` Python
+```python
     def test_001_t (self):
         # set up fg
         item_number = 10
@@ -47,7 +47,7 @@ As you can know from [`flicker.v`](https://github.com/B0WEN-HU/Verilator_SIM_sta
 
 The shared library I used in this block was named as `libvl.so`, the name might be changed later. The ABI(Application Binary Interface) of this shared library is as follow. There must be a lot of modifications of ABI in the future work.
 
-``` C++
+```c++
 #pragma once
 
 # include "Vflicker.h"
@@ -76,7 +76,7 @@ void release();
 
 The constructor of this `source block` was shown below. It demonstrates how the shared library was loaded, as well as how the verilog module was initialized and reset.
 
-``` C++
+```c++
     /*
      * The private constructor
      */
