@@ -88,7 +88,6 @@ The constructor of this `source block` was shown below. It demonstrates how the 
     {
 
       // Load the library
-      
       this->pHandle = dlopen("/home/bowen/Documents/GR_learn/gr-mytutorial/lib/libvl.so", RTLD_LAZY);
       if(NULL == this->pHandle) {
         std::cerr << "ERROR:Cannot load the library" << std::endl;
@@ -96,7 +95,6 @@ The constructor of this `source block` was shown below. It demonstrates how the 
       }
 
       // Find the library symbol
-      
       void (*pInit)();
       pInit = (void (*)()) dlsym(this->pHandle, "init");
       if(NULL == pInit) {
