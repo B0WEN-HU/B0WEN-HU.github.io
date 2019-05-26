@@ -92,6 +92,7 @@ The constructor of this `source block` was shown below. It demonstrates how the 
       if(NULL == this->pHandle) {
         std::cerr << "ERROR:Cannot load the library" << std::endl;
         //return EXIT_FAILURE
+      
       }
 
       // Find the library symbol
