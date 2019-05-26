@@ -58,7 +58,6 @@ The shared library I used in this block was named as `libvl.so`, the name might 
 
 extern "C"
 {
-
 #endif
 
 static Vflicker* tb;
@@ -75,7 +74,6 @@ void release();
 #ifdef __cplusplus
 
 }
-
 #endif
 ```
 
