@@ -27,7 +27,7 @@ It will be better to demonstrate this by codes directly. So I will show some of 
 The `verilog_ii_impl.h` and `verilog_ii_impl.cc` are as follow. You can find it [here](https://github.com/B0WEN-HU/gr-verilog/blob/structure/lib/verilog_ii_impl.h "verilog_ii_impl.h") and [here](https://github.com/B0WEN-HU/gr-verilog/blob/structure/lib/verilog_ii_impl.cc "verilog_ii_impl.cc").
 
 `verilog_ii_impl.h`:
-``` c++
+``` c
 #ifndef INCLUDED_VERILOG_VERILOG_II_IMPL_H
 #define INCLUDED_VERILOG_VERILOG_II_IMPL_H
 
@@ -119,7 +119,7 @@ namespace gr {
 ```
 
 `verilog_ii_impl.cc`:
-``` c++
+``` c
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
