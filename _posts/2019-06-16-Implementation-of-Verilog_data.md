@@ -15,7 +15,7 @@ This is a report about the Implementation of `Verilog_data` class.
 
 --------------------------
 
-The `Verilog_data` class is the one of the most important classes in this project. Not only does it work only in block code, but it also performs important functions in the shared library.
+The `Verilog_data` class is the one of the most important classes in this project. Not only does it work only in block code, but it also performs important functions in the shared library. You could find the code [here](https://github.com/B0WEN-HU/gr-verilog/tree/structure/include/Verilog_data).
 
 The `Verilog_data` class build and store the port information of the verilog module, and it could take the `const char *port_name` then manipulate the corresponding port of `Verilator` code. Due to lack of reflection mechanism in C++, I can only implement this myself.
 
@@ -33,9 +33,13 @@ The `Verilog_data` was implemented by template, which is a tough work. Because, 
 
 ``` c++
 struct Void_module{
+
   // This is just a placeholder for the template
+  
   // Void_module should be used in main code of the block
+  
   // The real template <Vmodule> should be used in the shared library
+  
 };
 ```
 
