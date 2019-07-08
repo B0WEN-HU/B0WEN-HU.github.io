@@ -24,16 +24,27 @@ I also finished and tested the Makefile template `axi_module_cl.mk` for the AXI-
 
 ``` c++
 /*
+
  * AXI signals:
+ 
  * ACLK               input
+ 
  * ARESETn            input
+ 
  * TVALID_IN          input
+ 
  * TREADY_IN          output
+ 
  * TVALID_OUT         output
+ 
  * TREADY_OUT         input
+ 
  * TDATA_IN[31:0]     input
+ 
  * TDATA_OUT[31:0]    output
+ 
  */
+ 
 ```
 
 I finished the template of the shared library code `axi_module.h` and `axi_module.cpp`, but I did not test them yet. The shared library interface is as below. You could find `axi_module.h` [here](https://github.com/B0WEN-HU/gr-verilog/blob/structure/lib/axi_module.h) and `axi_module.cpp` [here](https://github.com/B0WEN-HU/gr-verilog/blob/structure/lib/axi_module.cpp).
