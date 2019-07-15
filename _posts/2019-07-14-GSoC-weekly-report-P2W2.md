@@ -26,15 +26,25 @@ You should keep your Verilog module's interface as below, to work with this bloc
 
 ``` c++
 /*
+
  * AXI signals:
+
  * ACLK               input
+
  * ARESETn            input
+ 
  * TVALID_IN          input
+ 
  * TREADY_IN          output
+ 
  * TVALID_OUT         output
+ 
  * TREADY_OUT         input
+ 
  * TDATA_IN[31:0]     input
+ 
  * TDATA_OUT[31:0]    output
+ 
  */
 ```
 
