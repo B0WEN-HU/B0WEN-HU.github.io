@@ -16,6 +16,8 @@ Hi, this is my weekly report this week.
 --------------------------
 
 ## Progress this week
+I am glad that I passed the second evaluation this week, I can not achieve this without the help of my mentor and community. I really appreciate it.
+
 I finished the general case of AXI-stream, using general block. You can find it [here](https://github.com/B0WEN-HU/gr-verilog/tree/axi-general) in a new branch named `axi-general`. In this block, there is no such assumption that the verilog module should be sync. But the `forecast` of the block is just as simple as follows. Should it be more sophisticated?
 
 ```c++
