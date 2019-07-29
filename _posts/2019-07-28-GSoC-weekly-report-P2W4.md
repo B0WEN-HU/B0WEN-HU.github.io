@@ -38,7 +38,7 @@ If you want to try this new block, you could just clone this branch, and build i
 Test the new `axi-general` block more fully.
 
 ## Issue(s)
-I am not sure how to appropiately implement `forecast` of the block, with so little knowledge of user verilog module.
+I am not sure how to appropriately implement `forecast` of the block, with so little knowledge of user verilog module.
 
 --------------------------
 
