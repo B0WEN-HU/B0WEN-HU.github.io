@@ -18,7 +18,7 @@ Hi, this is my weekly report this week.
 ## Progress this week
 This week, I mainly did QA and fix bugs.
 
-I changed some names of the function in the cpp template. It will not affect the usage of the block.
+I changed some names of the function in the cpp template. It will not affect the usage of the block. You can find the source [here](https://github.com/B0WEN-HU/gr-verilog/blob/axi-general/templates/axi_module.cpp).
 
 I also add another feature, which is skip output, you can now change the macro in the template to skip first n outputs of verilog module. I will add another parameter of the block, to make this feature be accessed easier.
 
